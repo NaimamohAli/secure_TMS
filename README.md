@@ -29,3 +29,24 @@ This is a web application for managing tasks with secure login, built using **Re
 ### Backend (Server)
 
 1. Open terminal and go to the backend folder:
+
+2. Install backend packages:
+   npm install
+
+4. Create a file called `.env` in `backend` and add this:
+PORT=5000 MONGO_URI=your_mongodb_connection_string
+ JWT_SECRET=your_secret_key
+
+5. Start the backend server:
+npm run dev
+
+
+---
+
+### Frontend (React App)
+
+1. Open terminal and go to the frontend folder:
+cd frontend
+
+3. Install frontend packages:
+   npm install
