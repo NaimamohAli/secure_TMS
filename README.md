@@ -50,3 +50,23 @@ cd frontend
 
 3. Install frontend packages:
    npm install
+
+3. Create a `.env` file in `frontend` and add:
+   REACT_APP_API_URL=http://localhost:5000/api
+5. Start the frontend:
+npm start
+
+
+---
+
+## 🛠️ Tech Stack
+
+- Frontend: React.js
+- Backend: Node.js, Express
+- Database: MongoDB
+- Auth: JWT (JSON Web Token)
+- Styling: CSS
+- Tools: Axios, bcrypt, dotenv
+
+
+
